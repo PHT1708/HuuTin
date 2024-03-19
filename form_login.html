@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="CSS/CSS_login.css">
+	<link rel="stylesheet" type="text/css" href="CSS/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="title">Đăng nhập</div>
+		<input class="tk" type="text" placeholder="	Tài khoản...">
+		<input class="mk" type="password" placeholder="	Mật khẩu...">
+		<div id="baoloi"></div>
+		<input class="login" type="submit" value="Đăng nhập" onClick="login1()" ><br/>
+		<i id="i1"><a href="nhom-10.html">Về trang chủ</a></i>
+		<i id="i2"><a href="form_sign_in.html">Đăng kí</a></i><br/>
+		<div class="loginfb">
+			<a  href="https://vi-vn.facebook.com/"><i class="fa-brands fa-facebook"></i> Đăng nhập qua Facebook</a>
+		</div>
+	</div>
+</body>
+	<script>
+	function login1(){
+		var loi = "";
+		var arr = document.getElementsByTagName('input');
+		console.log(arr);
+		var tk = arr[0].value;
+		var mk = arr[1].value;
+		if(tk == "" || mk == ""){
+			alert("Vui lòng điền đầy đủ thông tin");
+			return;
+		}
+		if(arr[1].value=="")
+			{
+				arr[1].className="loi";
+				loi += "Kiểm tra lại Pass phải từ 6 kí tự trở lên<br>";
+			}
+		else if(arr[1].value.length <6)
+			{	
+				arr[1].className="loi";
+				loi += "Kiểm tra lại Pass phải từ 6 kí tự trở lên<br>";
+			}
+		else arr[1].className="txt";
+		if(loi!="")
+			{
+				document.getElementById('baoloi').innerHTML=loi;
+				return false;
+			}
+		alert("Đăng nhập thành công");
+	}
+</script>
+</html>

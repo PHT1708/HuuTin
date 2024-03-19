@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nhóm 10 - Thiết kế web bán sách</title>
+	<link rel="stylesheet" type="text/css" href="nhom-10.css">
+	<link rel="stylesheet" href="./css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body>
+	<header class="sticky-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-2 menu">
+					<img id="logo1" src="picture/logo.jpg" >
+				</div>
+				<div class="col-2">
+					
+				</div>
+				<div class="col-8 menu">
+					<i class="fa-solid fa-magnifAying-glass f1"></i> 	
+					<ul>
+						<input class="find" type="search" placeholder="	Tìm kiếm ...">
+						<li><a href=""><i style="margin-right:7px" class="fa-solid fa-house"></i>Trang chủ</a></li>
+						<li><a href=""><i style="margin-right:5px" class="header_login-icon fa-solid fa-user"></i>Tài khoản</a>
+							<ul class="menu2">
+								<li><a href="form_login.html">Đăng nhập</a></li>
+								<li><a href="form_sign_in.html">Đăng kí</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i style="margin-right:5px" class="fa-solid fa-align-justify"></i>Danh mục</a>
+							<ul class="menu3">
+								<li><a href="truyentranh.html">Truyện tranh</a></li>
+								<li><a href="sachthieunhi.html">Sách thiếu nhi</a></li>
+								<li><a href="sachtudien.html">Từ điển</a></li>
+								<li><a href="sachkhoahoc_congnghe.html">Khoa học công nghệ</a></li>
+								<li><a href="BTL_Vanhoadulich.html">Văn hóa du lịch</a></li>
+								<li><a href="vanhoc.html">Văn học</a></li>
+								<li><a href="BTL_Ngoaingutinhoc.html">Ngoại ngữ tin học</a></li>
+								<li><a href="BTL_KienTrucMyThuat.html">Kiến trúc mĩ thuật</a></li>
+								<li><a href="BTL_Theducthethao.html">Thể dục thể thao</a></li>
+								<li><a href="sachdoisong.html">Sách đời sống</a></li>
+								<li><a href="sachkinangsong.html">Sách kĩ năng sống</a></li>
+								<li><a href></a></li>
+							</ul>
+						</li>
+						<li><a href=""><i style="margin-right:5px" class="fa-solid fa-phone"></i>Liên hệ</a>
+							<ul class="menu3">
+								<li><a href="#">SĐT: 0345678910</a></li>
+							</ul>
+						</li>
+						<li><a href=""><i style="margin-right:5px" class="fa-solid fa-circle-question"></i>Hướng dẫn</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="container slider-margin">
+		<div class="row">
+			<div class="col-12">
+					<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">
+				1/3
+			</div>
+			<img src="picture/qc1.jpg" style="width: 100%;height: 500px;">
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">
+				2/3
+			</div>
+			<img src="picture/qc2.jpg" style="width: 100%;height: 500px;">
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">
+				3/3
+			</div>
+			<img src="picture/qc3.jpg" style="width: 100%;height: 500px;">
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+			</div>
+		</div>
+		
+	<div class="row">
+		<div class="col-12 title">
+			<h3><u>Sản phẩm bán chạy</u></h3>
+		</div>
+	</div><br/>
+	<div class="row">
+		<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/onepiece.jpg">
+				</div>
+				<div class="name">
+					<b><p>One Piece - Đảo hải tặc</p></b>
+					<b><del style="font-size: 20px;">110.000đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>75.000 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+		
+
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/thanhguomdietquy.jpg">
+						</div>
+						<div class="name">
+							<b><p>Demon Slayer: Kimetsu no Yaiba</p></b>
+							<b><del style="font-size: 20px;">90.000đ</del></b>
+						</div>
+						<div class="price">
+							<p>75.000 VNĐ</p>
+						</div>
+
+						<form>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>						
+					</br>		
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/conan.jpg">
+						</div>
+						<div class="name">
+							<b><p>Thám tử lừng danh Conan</p></b>
+							<b><del style="font-size: 20px;">80.000đ</del></b>
+						</div>
+						<div class="price">
+							<p>55.000 VNĐ</p>
+						</div>
+
+						<form>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>	
+					</br>
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/Attack on Titan.jpg">
+						</div>
+						<div class="name">
+							<b><p>Attack on Titan</p></b>
+							<b><del style="font-size: 20px;">80.300đ</del></b>
+						</div>
+						<div class="price">
+							<p>50.000 VNĐ></p>
+						</div>
+
+						<form>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>	
+					</br>
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/pokemon.jpg">
+						</div>
+						<div class="name">
+							<b><p>Pokemon XYZ</p></b>
+							<b><del style="font-size: 20px;">84.000đ</del></b>
+						</div>
+						<div class="price">
+							<p>50.000 VNĐ</p>
+						</div>
+		
+						<form style="margin-left: 5px;">
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>						
+					</br>
+					
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/vang_va_mau.jpg">
+						</div>
+						<div class="name">
+							<b><p>Tác phẩm: Vàng và máu</p></b>
+							<b><del style="font-size: 20px;">85.400đ</del></b>
+						</div>
+						<div class="price">
+							<p>70.000 VNĐ</p>
+						</div>
+		
+						<form style="margin-left: 5px;">
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>						
+					</br>
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/2chipheo.jpg">
+						</div>
+						<div class="name">
+							<b><p>Chí Phèo - Nam Cao</p></b>
+							<b><del style="font-size: 20px;">89.500đ</del></b>
+						</div>
+						<div class="price">
+							<p>70.000 VNĐ</p>
+						</div>
+		
+						<form style="margin-left: 5px;">
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>						
+					</br>
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/vh3.jpg">
+						</div>
+						<div class="name">
+							<b><p>Văn hóa du lịch Việt Nam</p></b>
+							<b><del style="font-size: 20px;">280.400đ</del></b>
+						</div>
+						<div class="price">
+							<p>193.600 VNĐ</p>
+						</div>
+		
+						<form style="margin-left: 5px;">
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>						
+					</br>
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/h11.jpg">
+						</div>
+						<div class="name">
+							<b><p>Mặt trái của công nghệ</p></b>
+							<b><del style="font-size: 20px;">175.000đ</del></b>
+						</div>
+						<div class="price">
+							<p>135.500 VNĐ</p>
+						</div>
+		
+						<form style="margin-left: 5px;">
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>						
+					</br>
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+					<div class="card">
+						<div class="image">
+							<img src="picture/kns1.jpg">
+						</div>
+						<div class="name">
+							<b><p>Đừng phí hoài tuổi trẻ</p></b>
+							<b><del style="font-size: 20px;">97.000đ</del></b>
+						</div>
+						<div class="price">
+							<p>64.800 VNĐ</p>
+						</div>
+		
+						<form style="margin-left: 5px;">
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+							<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+						</form>						
+					</br>
+
+						<form>
+							<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+						</form>
+					</div>
+				</div>
+				<div class="col-2th">
+							<div class="card">
+								<div class="image">
+									<img src="picture/đs8.jpg" />
+								</div>
+								<div class="name">
+									<b><p>Cuộc Sống Không Giới Hạn</p></b>
+									<b><del style="font-size: 20px;">195.800đ</del></b>
+								</div>
+
+								<div class="price">
+									<p>138.000 VNĐ</p>												
+								</div>
+
+								<form style="margin-left: 5px;">
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:black; font-size: 15px" class="fa-solid fa-star icon-grid"></i>
+								</form>						
+							</br>
+
+								<form>
+									<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+								</form>
+							</div>
+						</div>
+						<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/khcn4.jpg" />
+				</div>
+				<div class="name">
+					<b><p>Cẩm nang chuyển đổi số</p></b>
+					<b><del style="font-size: 20px;">70.300đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>32.500 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/khcn7.jpg" />
+				</div>
+				<div class="name">
+					<b><p>Tập atlas thế giới</p></b>
+					<b><del style="font-size: 20px;">120.400đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>66.500 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/kientrucmythuat5.jpg"/>
+				</div>
+				<div class="name">
+					<b><p>Kiến trúc hình rồng</p></b>
+					<b><del style="font-size: 20px;">82.800đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>49.000 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/kns2.jpg" />
+				</div>
+				<div class="name">
+					<b><p>Quẳng Gánh Lo Đi Và Vui Sống</p></b>
+					<b><del style="font-size: 20px;">123.400đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>74.500 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+		<div class="col-2th">
+							<div class="card">
+								<div class="image">
+									<img src="picture/dulich9.jfif" />
+								</div>
+								<div class="name">
+									<b><p>Dòng chảy văn hóa Việt Nam</p></b>
+									<b><del style="font-size: 20px;">375.800đ</del></b>
+								</div>
+
+								<div class="price">
+									<p>249.000 VNĐ</p>												
+								</div>
+
+								<form style="margin-left: 5px;">
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+									<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+								</form>						
+							</br>
+
+								<form>
+									<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+								</form>
+							</div>
+						</div>
+						<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/stn6.jpg" />
+				</div>
+				<div class="name">
+					<b><p>Đứa trẻ vô hình</p></b>
+					<b><del style="font-size: 20px;">63.000đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>43.000 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/tokyorevenger.jpg" />
+				</div>
+				<div class="name">
+					<b><p>Tokyo revengers</p></b>
+					<b><del style="font-size: 20px;">80.000đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>75.000 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/2truyen-kieu.jpg" />
+				</div>
+				<div class="name">
+					<b><p>Tác phẩm: Truyện Kiều</p></b>
+					<b><del style="font-size: 20px;">100.000đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>70.000 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+<div class="col-2th">
+			<div class="card">
+				<div class="image">
+					<img src="picture/onepunchman.jpg"/>
+				</div>
+				<div class="name">
+					<b><p>One Punch Man</p></b>
+					<b><del style="font-size: 20px;">85.000đ</del></b>
+				</div>
+				
+				<div class="price">
+					<p>65.000 VNĐ</p>												
+				</div>
+
+				<form style="margin-left: 5px;">
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+					<i style="color:gold" class="fa-solid fa-star icon-grid"></i>
+				</form>						
+			</br>
+
+				<form>
+               		<center><input type="submit" value="Mua Ngay" onClick="onclick1()"></center>
+            	</form>
+			</div>
+		</div>
+			</div>
+		</div>
+	
+	
+	<footer>
+		<div class="container">
+			<div class="row footer">
+				<div class="col-3">
+					<h3>Hỗ trợ khách hàng</h3>
+					<ul class="menu_footer">
+						<li><a href="">Sản phẩm</a></li>
+						<li><a href="">SĐT: 0345678910</a></li>
+						<li><a href="">Email:xdangxkhoax@gmail.com</a></li>
+						<li><a href="">Địa chỉ: Tân Bình-TP HCM</a></li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<h3>Trợ giúp</h3>
+					<ul class="menu_footer">
+						<li><a href="">Hướng dẫn mua hàng</a></li>
+						<li><a href="">Phương thức thanh toán</a></li>
+						<li><a href="">Phương thức vận chuyển</a></li>
+						<li><a href="">Chính sách đổi trả</a></li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<h3>Tài khoản</h3>
+					<ul class="menu_footer">
+						<li><a href="">Cập nhật thông tin</a></li>
+						<li><a href="">Đổi mật khẩu</a></li>
+						<li><a href="">Lấy lại mật khẩu</a></li>
+						<li><a href="">Lịch sử giao dịch</a></li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<h3>Các gói ưu đãi</h3>
+					<ul class="menu_footer">
+						<li><a href="">Giảm giá</a></li>
+						<li><a href="">Khuyến mãi</a></li>
+						<li><a href="">Tích lũy</a></li>
+						<li><a href="">Quà ưu đãi</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 copy_right">
+				<a href="">Thông tin liên hệ xdangxkhoax@gmail.com</a><br>
+			</div>
+		</div>
+	</footer>
+</body>
+<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		 
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		 
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += "active";
+		  setTimeout(showSlides, 1000);
+		}
+		function onclick1(){
+			alert("Thành công");
+	}
+</script>
+</html>
